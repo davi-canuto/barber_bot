@@ -2,7 +2,7 @@ name: Mark cut
 
 on:
   schedule:
-    - cron: '5 0 * * *'
+    - cron: "38 20 * * *"
 
 jobs:
   make-http-request:
