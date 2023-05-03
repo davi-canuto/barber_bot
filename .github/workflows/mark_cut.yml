@@ -8,6 +8,6 @@ jobs:
   make-http-request:
     runs-on: ubuntu-latest
     steps:
-      - name: Make HTTP Request
+      - name: http_request_to_mark_cut
         run: |
-          curl --location --request POST 'https://auto-barber-schedule.vercel.app/api/go'
+          curl -X POST 'https://auto-barber-schedule.vercel.app/api/go'
